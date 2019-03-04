@@ -42,7 +42,6 @@ body{
 	border-top: 1px solid #751b1b;
 	border-bottom: 1px solid #751b1b;
 	height: 40px;
-	/* position: fixed; */
 }
 
 .nav ol{
@@ -76,6 +75,7 @@ body{
 	margin-right: auto;
 	width: 1000px;
 	text-align: justify;
+	padding-top: 10px;
 }
 
 .socials{
@@ -132,4 +132,14 @@ body{
 
 .footer{
 	text-align: center;
+	background-color: #222222;
+	padding: 30px 0;
+}
+
+.sticky{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
 }

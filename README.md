@@ -17,10 +17,7 @@ In this episode of the CSS series, I will learn how to create a pull-down main m
 	- list-style-type:x;					x- 	american, circle, cjk-ideographic, georgian, hebrew, hiragana, squere, upper-roman, decimal, decimal-leading-zero, disc, hiragana-iroha, inherit, katakana, upper-alpha, katakana-iroha, lower-alpha, lower-greek, lower-latin, lower-raoman, none, upper-latin
 	- display: inline-block;				something like float: left;
 	- border: 1px solid #fff;				sometimes it's worth to add border in course project to see speace of div class
-
-.#jQuery:
-
-	- #name_id								for infividual style
+	- z-index: 100;							on the front of page
 	
 	
 .# Sources:
