@@ -10,14 +10,68 @@ body{
 }
 
 .logo{
-	margin-right: auto;
 	margin-left: auto;
+	margin-right: auto;
 	background-image: url("pad.png");
-	width: 800px;
+	width: 450px;
 	height: 100px;
 }
 
 .nav{
 	background-color: red;
-	min-height: 80px;	
+	min-height: 40px;
+	/* position: fixed; */
+}
+
+.nav ol{
+	text-align: center;
+	
+}
+
+.nav ol>li{
+	display: inline-block;
+	padding: 10px 25px;
+	border-right: 2px dashed gray;
+}
+
+.nav ol>li:firstchild{
+	border-left: 2px dashed gray;
+}
+
+.nav ol>li>ul{
+	display: none;
+}
+
+.nav ol>li:hover>ul{
+	display: block;
+}
+
+.nav ol>li>ul>li{
+	
+}
+
+.content{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	background-color: blue;
+}
+
+.socials{
+	background-color: #292929;
+}
+
+.socialsdivs{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	
+}
+
+.fb{
+	
+}
+
+.footer{
+	text-align: center;
 }
