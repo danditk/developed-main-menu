@@ -14,11 +14,9 @@ body{
 .header{
 	width: 100%;
 	padding: 40px 0;
-	background-color: gray;
 }
 
 .logo{
-	background-color: gray;
 	margin-left: auto;
 	margin-right: auto;
 	width: 450px;
@@ -70,18 +68,39 @@ ol > li:hover{
 	background-color: #cf6969;
 }
 
+ol > li:hover > a{
+	color: #451717;
+}
+
 ol > li:first-child{
 	border-left: 1px dashed #751b1b;
 }
 
 ol > li > ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	height: 40px;
+	display: none;
 }
 
-ol > li:hover>ul{
+ol > li:hover > ul{
+	display: block;
 }
 
 ol > li > ul > li{
-	
+	background-color: #cf6969;
+	position: relative;
+	z-index: 100;
+	border-top: 1px dashed #751b1b;
+}
+
+ol > li > ul > li:hover{
+	background-color: #c34f4f;
+}
+
+ol > li > ul > li:hover > a{
+	color: #451717;
 }
 
 .content{

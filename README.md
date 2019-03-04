@@ -18,6 +18,8 @@ In this episode of the CSS series, I will learn how to create a pull-down main m
 	- display: inline-block;				something like float: left;
 	- border: 1px solid #fff;				sometimes it's worth to add border in course project to see speace of div class
 	- z-index: 100;							on the front of page
+	- position: relative;					on the front of text content
+	- ol > li > ul > li:hover > a			if text is in a tag i must style a tag!
 	
 	
 .# Sources:
