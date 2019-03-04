@@ -1,6 +1,8 @@
 body{
 	background-color: #303030;
 	color: #fff;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
 	margin: 0;
 	padding: 0;
 }
@@ -9,12 +11,36 @@ body{
 	width: 100%;
 }
 
+.header{
+	width: 100%;
+	padding: 40px 0;
+	background-color: gray;
+}
+
 .logo{
+	background-color: gray;
 	margin-left: auto;
 	margin-right: auto;
-	background-image: url("pad.png");
-	width: 450px;
 	height: 100px;
+	width: 450px;
+	text-align: center;
+	font-size: 48px;
+	border: 1px solid #fff;
+}
+
+.logo img{
+	float: left;
+	padding: 10px 30px;
+}
+
+.ltextl{
+	float: left;
+	color: red;
+}
+
+.ltextr{
+	float: left;
+	
 }
 
 .nav{
