@@ -2,6 +2,11 @@
 3 tutorial CSS series by Miroslw Zelent
 In this episode of the CSS series, I will learn how to create a pull-down main menu on the website. And this is a menu that when scrolling or scrolling the page will stick to the top edge of the browser. Pretty awesome! This trick is used on many, many websites, and how the main menu knows every computer user. That's why it's a very intuitive solution, it's great for many interfaces.
 
+
+.#HTML:
+
+	- <span>								can use to separate part of content not destroy structure
+
 .#CSS:
 
 	- position: fixed;						element is steal in one pleace on the screen
@@ -11,6 +16,7 @@ In this episode of the CSS series, I will learn how to create a pull-down main m
 	- text-align:x;							x - left, right, center, justify
 	- list-style-type:x;					x- 	american, circle, cjk-ideographic, georgian, hebrew, hiragana, squere, upper-roman, decimal, decimal-leading-zero, disc, hiragana-iroha, inherit, katakana, upper-alpha, katakana-iroha, lower-alpha, lower-greek, lower-latin, lower-raoman, none, upper-latin
 	- display: inline-block;				something like float: left;
+	- border: 1px solid #fff;				sometimes it's worth to add border in course project to see speace of div class
 
 .#jQuery:
 

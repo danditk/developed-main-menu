@@ -3,7 +3,7 @@ body{
 	color: #fff;
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
-	margin: 0;
+	margin: 0 !important;
 	padding: 0;
 }
 
@@ -21,42 +21,37 @@ body{
 	background-color: gray;
 	margin-left: auto;
 	margin-right: auto;
-	height: 100px;
 	width: 450px;
 	text-align: center;
 	font-size: 48px;
-	border: 1px solid #fff;
 }
 
 .logo img{
 	float: left;
-	padding: 10px 30px;
 }
 
-.ltextl{
-	float: left;
-	color: red;
-}
-
-.ltextr{
-	float: left;
-	
+.lretro{
+	color: #c34f4f;
 }
 
 .nav{
-	background-color: red;
-	min-height: 40px;
+	width: 100%;
+	padding: 5px 0;
+	background-color: #c34f4f;
+	text-align: center;
+	border-top: 1px solid #751b1b;
+	border-bottom: 1px solid #751b1b;
+	height: 40px;
 	/* position: fixed; */
 }
 
 .nav ol{
-	text-align: center;
 	
 }
 
 .nav ol>li{
 	display: inline-block;
-	padding: 10px 25px;
+	padding: 0 25px;
 	border-right: 2px dashed gray;
 }
 
@@ -80,7 +75,7 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	width: 1000px;
-	background-color: blue;
+	text-align: justify;
 }
 
 .socials{
