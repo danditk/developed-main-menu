@@ -1,0 +1,23 @@
+body{
+	background-color: #303030;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	width: 100%;
+}
+
+.logo{
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url("pad.png");
+	width: 800px;
+	height: 100px;
+}
+
+.nav{
+	background-color: red;
+	min-height: 80px;	
+}
